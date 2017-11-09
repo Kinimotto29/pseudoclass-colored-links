@@ -1,0 +1,15 @@
+a {
+    display: block;
+    line-height: 2;
+    color: #000;
+    text-decoration: none;
+}
+a[href*="doc"] {
+    color: #d60f0f;
+}
+a[href*="docx"] {
+    color: #1d00ff;
+}
+a:hover {
+    text-decoration: underline;
+}
